@@ -2,12 +2,16 @@
 
 This Python application is designed to scrape and extract product information from a list of URLs. Leveraging powerful libraries such as requests for handling HTTP requests, BeautifulSoup from beautifulsoup4 for parsing HTML content, and pandas for managing and exporting the data, it automatizes the process of collecting crucial product details from e-commerce or any product-based websites listed in a text file.
 
-Main Features
-URL Processing: Reads a list of URLs from a text file ```(Url.txt)``` and processes each URL sequentially to extract product information.
-Data Extraction: Utilizes BeautifulSoup to parse HTML content of each webpage and extracts structured product information such as name, description, price, currency, and availability.
-Error Handling: Gracefully handles HTTP, SSL, and Request errors by logging them along with the URL, thus ensuring the process continuity even if some URLs are problematic.
-Data Transformation and Export: Converts extracted data to a CSV file ```(products_info.csv)``` with proper formatting for prices, offering a seamless way to handle the extracted data for further analysis or use.
-Technologies Used
+## Main Features
+**_URL Processing:_** Reads a list of URLs from a text file ```(Url.txt)``` and processes each URL sequentially to extract product information.
+
+**_Data Extraction:_** Utilizes BeautifulSoup to parse HTML content of each webpage and extracts structured product information such as name, description, price, currency, and availability.
+
+**_Error Handling:_** Gracefully handles HTTP, SSL, and Request errors by logging them along with the URL, thus ensuring the process continuity even if some URLs are problematic.
+
+**_Data Transformation and Export:_** Converts extracted data to a CSV file ```(products_info.csv)``` with proper formatting for prices, offering a seamless way to handle the extracted data for further analysis or use.
+
+## Technologies Used
 Python: As the core programming language, facilitating various powerful libraries and providing a base for the application logic.
 requests: For performing HTTP requests to retrieve web pages.
 BeautifulSoup4: Used for HTML content parsing and extraction of needed information.
